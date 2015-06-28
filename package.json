@@ -1,6 +1,12 @@
 {
+  "name": "loader-test",
+  "scripts": {
+    "start": "node-dev --harmony index.js"
+  },
   "dependencies": {
-    "koa": "^0.21.0",
-    "koa-static": "^1.4.9"
+    "koa": "^0.21.0"
+  },
+  "devDependencies": {
+    "node-dev": "^2.6.2"
   }
 }
